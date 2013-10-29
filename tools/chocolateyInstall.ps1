@@ -1,4 +1,4 @@
-$package = 'SQL20012.SMO'
+$package = 'SQL2012.SMO'
 
 try {
   $params = @{
