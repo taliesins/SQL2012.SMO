@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SQL2012.SMO</id>
-    <version>10.50.1600.1</version>
+    <version>10.50.1600.2</version>
     <title>Microsoft SQL Server 2012 Management Objects</title>
     <authors>Microsoft</authors>
     <owners>Taliesin Sisson</owners>
