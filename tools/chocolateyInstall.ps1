@@ -5,8 +5,8 @@ try {
     packageName = $package;
     fileType = 'msi';
     silentArgs = '/quiet';
-    url = 'http://download.microsoft.com/download/4/B/1/4B1E9B0E-A4F3-4715-B417-31C82302A70A/ENU/x86/SharedManagementObjects.msi';
-    url64bit = 'http://download.microsoft.com/download/4/B/1/4B1E9B0E-A4F3-4715-B417-31C82302A70A/ENU/x64/SharedManagementObjects.msi';
+    url = 'http://download.microsoft.com/download/F/E/D/FEDB200F-DE2A-46D8-B661-D019DFE9D470/ENU/x86/SharedManagementObjects.msi';
+    url64bit = 'http://download.microsoft.com/download/F/E/D/FEDB200F-DE2A-46D8-B661-D019DFE9D470/ENU/x64/SharedManagementObjects.msi';
   }
 
   Install-ChocolateyPackage @params
