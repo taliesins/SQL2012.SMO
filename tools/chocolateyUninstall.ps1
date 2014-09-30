@@ -1,6 +1,6 @@
 # HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\
 $msiId = ''
-$msiId64 = '{2F7DBBE6-8EBC-495C-9041-46A772F4E311}'
+$msiId64 = '{FA0A244E-F3C2-4589-B42A-3D522DE79A42}'
 
 $package = 'SQL2012.SMO'
 
