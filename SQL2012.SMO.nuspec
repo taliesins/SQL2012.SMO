@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>SQL2012.SMO</id>
-    <version>11.0.2100.60</version>
+    <id>sql2012.smo</id>
+    <version>11.0.2100.61</version>
     <title>Microsoft SQL Server 2012 Management Objects</title>
     <authors>Microsoft</authors>
     <owners>Taliesin Sisson</owners>
@@ -16,8 +16,8 @@
     <tags>SQL SQL2012 SMO .NET XML CLR</tags>
     <dependencies>
       <dependency id="MSXML6.SP1" />
-      <dependency id="SQL2012.NativeClient" />
-      <dependency id="SQL2012.ClrTypes" />
+      <dependency id="sql2012.nativeclient" />
+      <dependency id="sql2012.clrtypes" />
     </dependencies>
   </metadata>
 </package>
