@@ -16,8 +16,8 @@
     <tags>SQL SQL2012 SMO .NET XML CLR</tags>
     <dependencies>
       <dependency id="MSXML6.SP1" />
-      <dependency id="sql2012.NativeClient" />
-      <dependency id="sql2012.ClrTypes" />
+      <dependency id="sql2012.nativeclient" />
+      <dependency id="sql2012.clrtypes" />
     </dependencies>
   </metadata>
 </package>
