@@ -20,4 +20,7 @@
       <dependency id="sql2012.clrtypes" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="**" exclude=".git**\*;**\*.nupkg;**\*.nuspec;" />
+  </files>
 </package>
