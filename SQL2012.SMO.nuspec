@@ -2,15 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sql2012.smo</id>
-    <version>11.0.2100.61</version>
+    <version>11.0.5058.0</version>
     <title>Microsoft SQL Server 2012 Management Objects</title>
     <authors>Microsoft</authors>
     <owners>Taliesin Sisson</owners>
-    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=35580</projectUrl>
+    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=43339</projectUrl>
     <iconUrl>https://github.com/taliesins/SQL2012.SMO/raw/master/SQL2012.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The SQL Server Management Objects (SMO) is a .NET Framework object model that enables software developers to create client-side applications to manage and administer SQL Server objects and services. This object model will work with SQL Server 2000, SQL Server 2005, SQL Server 2008, SQL Server 2008 R2 and SQL Server 2012.</description>
-    <summary>Microsoft SQL Server 2012 Feature Pack SP 1
+    <summary>Microsoft SQL Server 2012 Feature Pack SP 2
       The SQL Server Management Objects (SMO) is a .NET Framework object model that enables software developers to create client-side applications to manage and administer SQL Server objects and services. This object model will work with SQL Server 2000, SQL Server 2005, SQL Server 2008, SQL Server 2008 R2 and SQL Server 2012</summary>
     <releaseNotes />
     <tags>SQL SQL2012 SMO .NET XML CLR</tags>

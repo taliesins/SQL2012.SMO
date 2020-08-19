@@ -1,20 +1,13 @@
 $params = @{
   packageName = 'sql2012.smo';
-  fileType = 'msi';
+  installerType = 'msi';
   silentArgs = '/quiet';
-  url = 'http://download.microsoft.com/download/F/E/D/FEDB200F-DE2A-46D8-B661-D019DFE9D470/ENU/x86/SharedManagementObjects.msi';
-  checksum='AFC0ECCB35C979801344B0DC04556C23C8B957F1BDEE3530BC1A59D5C704CE64'
-  checksumType='Sha256'
+  url = 'http://download.microsoft.com/download/3/A/6/3A632674-A016-4E31-A675-94BE390EA739/ENU/x86/SharedManagementObjects.msi';
+  checksum='9D9D1D0F4D498C3D4A35AFA51075C48734F5A84628F1679092378F760D339756';
+  checksumType='Sha256';
+  url64 = 'http://download.microsoft.com/download/3/A/6/3A632674-A016-4E31-A675-94BE390EA739/ENU/x64/SharedManagementObjects.msi';
+  checksum64 = '7FF7E967C20F2B7402603D0A7D468246308135D93CD369EB49D968FAC8239CEB';
+  checksumType64 = 'Sha256';
+  validExitCodes = @(0,3010)
 }
-
 Install-ChocolateyPackage @params
-
-# install both x86 and x64 editions of SMO since x64 supports both
-# to install both variants of p owershell, both variants of SMO must be present
-if (Get-ProcessorBits -eq 64) {
-  $params['url'] = ''
-  $params['url64'] = 'http://download.microsoft.com/download/F/E/D/FEDB200F-DE2A-46D8-B661-D019DFE9D470/ENU/x64/SharedManagementObjects.msi'
-  $params['checksum64'] = 'ED753D85B51E7EAE381085CAD3DCC0F29C0B72F014F8F8FBA1AD4E0FE387CE0A'
-  $params['checksumType64'] = 'Sha256'
-  Install-ChocolateyPackage @params
-}
